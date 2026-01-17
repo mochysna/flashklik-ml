@@ -61,7 +61,6 @@ def predict(req: PredictRequest):
     keluhan = _norm(req.keluhan)
 
     # WAJIB: kolom text_combined harus ada karena training pakai text_col="text_combined"
-    # Bisa sederhana (hanya keluhan), atau gabungkan biar lebih kaya informasi:
     text_combined = keluhan
     # text_combined = f"{keluhan} {jenis} {merk} {seri}".strip()
 
@@ -73,22 +72,40 @@ def predict(req: PredictRequest):
         "ttcheck_series_service": seri
     }])
 
-    # Prediksi probabilitas (DecisionTreeClassifier support predict_proba)
+    # Prediksi probabilitas
     proba = model.predict_proba(X_input)[0]
     classes = model.classes_
 
-    # Ambil top-3
-    top_k = min(3, len(classes))
-    idx_sorted = np.argsort(proba)[::-1][:top_k]
+    # --- TOP-K FILTERED ---
+    EPS = 1e-6
+    TOP_K = min(3, len(classes))
+
+    idx_sorted = np.argsort(proba)[::-1]
 
     top3: list[dict] = []
-    for i in idx_sorted:
-        conf = float(proba[i])
-        top3.append({
-            "label": str(classes[i]),
-            "confidence": conf,
-            "persen": round(conf * 100, 2)
-        })
+    for i in idx_sorted[:TOP_K]:
+        conf_i = float(proba[i])
+        if conf_i > EPS:
+            top3.append({
+                "label": str(classes[i]),
+                "confidence": conf_i,
+                "persen": round(conf_i * 100, 2)
+            })
+
+    # fallback: kalau semua conf dianggap 0
+    if not top3:
+        i0 = int(idx_sorted[0])
+        conf0 = float(proba[i0])
+        top3 = [{
+            "label": str(classes[i0]),
+            "confidence": conf0,
+            "persen": round(conf0 * 100, 2)
+        }]
+
+    # kalau prediksi utama ~100%, tampilkan 1 saja
+    if abs(top3[0]["confidence"] - 1.0) < EPS:
+        top3 = [top3[0]]
+    # --- END TOP-K FILTERED ---
 
     # Prediksi utama
     best = top3[0]

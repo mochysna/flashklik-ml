@@ -5,6 +5,8 @@ import pandas as pd
 import numpy as np
 
 from fastapi import Depends, HTTPException
+from sqlalchemy import text
+
 from sqlalchemy.orm import Session
 from db import get_db, init_db
 from models import InternalTicket, InternalReportTeknisi, PrediksiML

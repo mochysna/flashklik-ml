@@ -133,7 +133,14 @@ def predict(req: PredictRequest):
         top_3_kemungkinan=top3
     )
 
-
+@app.get("/db-health")
+def db_health(db: Session = Depends(get_db)):
+    row = db.execute(text("SELECT current_database() AS db, version() AS version")).mappings().first()
+    return {
+        "status": "ok",
+        "database": row["db"],
+        "postgres_version": row["version"],
+    }
 class TicketCreate(BaseModel):
     ttcheck_remark_service: str
     ttcheck_device_service: str

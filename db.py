@@ -1,20 +1,19 @@
+# db.py
 import os
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, DeclarativeBase
+from sqlalchemy.orm import sessionmaker
+
+from models import Base  # Base ada di models.py kamu
 
 DATABASE_URL = os.getenv("DATABASE_URL")
-
 if not DATABASE_URL:
-    raise RuntimeError("DATABASE_URL belum diset. Set di Railway Variables atau .env untuk lokal.")
+    raise RuntimeError("DATABASE_URL belum diset di environment Railway")
 
-# SQLAlchemy butuh driver psycopg2 kalau sync
-# DATABASE_URL format: postgresql://user:pass@host:port/db
 engine = create_engine(DATABASE_URL, pool_pre_ping=True)
-
 SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 
-class Base(DeclarativeBase):
-    pass
+def init_db():
+    Base.metadata.create_all(bind=engine)
 
 def get_db():
     db = SessionLocal()

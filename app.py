@@ -6,13 +6,17 @@ import numpy as np
 
 from fastapi import Depends, HTTPException
 from sqlalchemy.orm import Session
-from db import get_db
+from db import get_db, init_db
 from models import InternalTicket, InternalReportTeknisi, PrediksiML
 
 # Load model (pastikan file ini ada di folder yang sama saat run uvicorn)
 model = joblib.load("artifacts/model_keluhan_decision_tree.joblib")
 
 app = FastAPI(title="API Prediksi Keluhan FlashKlik (Decision Tree)")
+
+@app.on_event("startup")
+def on_startup():
+    init_db()
 
 # --- Mapping rekomendasi teknisi per label ---
 REKOMENDASI = {

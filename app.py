@@ -4,6 +4,11 @@ import joblib
 import pandas as pd
 import numpy as np
 
+from fastapi import Depends, HTTPException
+from sqlalchemy.orm import Session
+from db import get_db
+from models import InternalTicket, InternalReportTeknisi, PrediksiML
+
 # Load model (pastikan file ini ada di folder yang sama saat run uvicorn)
 model = joblib.load("artifacts/model_keluhan_decision_tree.joblib")
 
@@ -123,3 +128,134 @@ def predict(req: PredictRequest):
         pesan_teknisi=pesan,
         top_3_kemungkinan=top3
     )
+
+
+class TicketCreate(BaseModel):
+    ttcheck_remark_service: str
+    ttcheck_device_service: str
+    ttcheck_brand_service: str
+    ttcheck_series_service: str | None = ""
+
+@app.post("/tickets")
+def create_ticket(payload: TicketCreate, db: Session = Depends(get_db)):
+    t = InternalTicket(
+        ttcheck_remark_service=payload.ttcheck_remark_service.strip(),
+        ttcheck_device_service=payload.ttcheck_device_service.strip().upper(),
+        ttcheck_brand_service=payload.ttcheck_brand_service.strip().upper(),
+        ttcheck_series_service=(payload.ttcheck_series_service or "").strip().upper(),
+    )
+    db.add(t)
+    db.commit()
+    db.refresh(t)
+    return {"id_ticket": t.id_ticket}
+
+class ReportCreate(BaseModel):
+    ttrcheck_description: str
+
+@app.post("/tickets/{id_ticket}/report")
+def upsert_report(id_ticket: int, payload: ReportCreate, db: Session = Depends(get_db)):
+    ticket = db.get(InternalTicket, id_ticket)
+    if not ticket:
+        raise HTTPException(status_code=404, detail="Ticket tidak ditemukan")
+
+    existing = db.query(InternalReportTeknisi).filter_by(id_ticket=id_ticket).first()
+    if existing:
+        existing.ttrcheck_description = payload.ttrcheck_description.strip()
+        db.commit()
+        return {"status": "updated"}
+    else:
+        r = InternalReportTeknisi(id_ticket=id_ticket, ttrcheck_description=payload.ttrcheck_description.strip())
+        db.add(r)
+        db.commit()
+        return {"status": "created"}
+
+@app.post("/tickets/{id_ticket}/predict")
+def predict_for_ticket(id_ticket: int, db: Session = Depends(get_db)):
+    ticket = db.get(InternalTicket, id_ticket)
+    if not ticket:
+        raise HTTPException(status_code=404, detail="Ticket tidak ditemukan")
+
+    report = db.query(InternalReportTeknisi).filter_by(id_ticket=id_ticket).first()
+
+    # text_combined: gabung remark + report teknisi (kalau ada)
+    keluhan = (ticket.ttcheck_remark_service or "").strip()
+    teknisi = (report.ttrcheck_description.strip() if report else "")
+    text_combined = (keluhan + " " + teknisi).strip()
+
+    X_input = pd.DataFrame([{
+        "text_combined": text_combined,
+        "ttcheck_device_service": (ticket.ttcheck_device_service or "").strip().upper(),
+        "ttcheck_brand_service": (ticket.ttcheck_brand_service or "").strip().upper(),
+        "ttcheck_series_service": (ticket.ttcheck_series_service or "").strip().upper(),
+    }])
+
+    proba = model.predict_proba(X_input)[0]
+    classes = model.classes_
+
+    # ambil top yang >0, dan kalau 100% ya tampil 1 aja
+    EPS = 1e-6
+    idx_sorted = np.argsort(proba)[::-1]
+
+    top = []
+    for i in idx_sorted[:min(3, len(classes))]:
+        conf = float(proba[i])
+        if conf > EPS:
+            top.append({"label": str(classes[i]), "confidence": conf, "persen": round(conf*100, 2)})
+
+    if not top:
+        i0 = int(idx_sorted[0])
+        top = [{"label": str(classes[i0]), "confidence": float(proba[i0]), "persen": round(float(proba[i0])*100, 2)}]
+
+    if abs(top[0]["confidence"] - 1.0) < EPS:
+        top = [top[0]]
+
+    label = top[0]["label"]
+    conf = top[0]["confidence"]
+
+    # upsert prediksi_ml (0..1 per ticket)
+    pred = db.query(PrediksiML).filter_by(id_ticket=id_ticket).first()
+    if pred:
+        pred.label_prediksi = label
+        pred.confidence_score = conf
+        pred.raw_topk = top
+    else:
+        pred = PrediksiML(
+            id_ticket=id_ticket,
+            label_prediksi=label,
+            confidence_score=conf,
+            raw_topk=top
+        )
+        db.add(pred)
+
+    db.commit()
+    return {
+        "id_ticket": id_ticket,
+        "perkiraan_kerusakan": label,
+        "confidence": conf,
+        "top_kemungkinan": top
+    }
+
+@app.get("/tickets/{id_ticket}")
+def get_ticket(id_ticket: int, db: Session = Depends(get_db)):
+    ticket = db.get(InternalTicket, id_ticket)
+    if not ticket:
+        raise HTTPException(status_code=404, detail="Ticket tidak ditemukan")
+
+    report = db.query(InternalReportTeknisi).filter_by(id_ticket=id_ticket).first()
+    pred = db.query(PrediksiML).filter_by(id_ticket=id_ticket).first()
+
+    return {
+        "ticket": {
+            "id_ticket": ticket.id_ticket,
+            "remark": ticket.ttcheck_remark_service,
+            "device": ticket.ttcheck_device_service,
+            "brand": ticket.ttcheck_brand_service,
+            "series": ticket.ttcheck_series_service,
+        },
+        "report_teknisi": (report.ttrcheck_description if report else None),
+        "prediksi": ({
+            "label": pred.label_prediksi,
+            "confidence": pred.confidence_score,
+            "topk": pred.raw_topk
+        } if pred else None)
+    }

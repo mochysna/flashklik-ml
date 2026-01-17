@@ -1,0 +1,316 @@
+ttrcheck_description,ttcheck_remark_service,ttcheck_device_service,ttcheck_brand_service,ttcheck_series_service
+"Kabel power monitor longgar/adaptor rusak, ganti adaptor normal",Monitor mati total tidak ada lampu,PC,Dell,OptiPlex 5070
+Printer epson L3210 Sn.XAGK164302 kendala print head tidak bergerak Unit milik Bank Mandiri puri indah mall,Rusak Ink pad nya tidak jalan,PT,Epson l3210,L3210
+engsel aus layar tidak stabil,engsel aus membuat layar mudah turun dan tidak bisa menahan posisi,NB,SAMSUNG,Galaxy Book
+-Hp deskjet2135 sn:CN9BA483S5 error printing -dilakukan pengecekan di bagian catridge ok -dilakukan pengecekan driver printer  terjadi error -dilakukan Add printer ulang printer  sudah normal kembali,Error printing,PT,HP,DeskJet 2135
+"Sudah dilakukan pergantian pasta unit tetap lemot, sudah diinstal ulang bios tetap tidak bisa di update.",setelah install ulang tidak mau diupdate firmware dan driver kamera tidak terinstall. boleh minta tolong diinstall ulang lagi sampai driver kamera dan update firmware,NB,lenovo,thinkpad x1 yoga
+"Konektor SATA longgar, setelah re-seat storage stabil",Kadang HDD hilang dari Windows,NB,ASUS,VivoBook 15
+Rusak pada head printernya (Dummy),Dummy,PT,Epson,Ls 3000
+Ada sparepart yang rusak dimainboard,Dummy Data,NB,Acer,Predator
+Selesai install anti virus. Type laptop Lenovo V14 SN: PF31AXPN,install antivirus,NB,HP,HP 14s
+"Sudah dilakukan reset software, dan dilakukan pengecekan ternyata ada kertas nyangkut dan laper klip, dilakukan manual influsing dan cleaning head pada software, unit sudah bisa digunakan kembali, ""Reset ulang","2 lampu indikator (tinta dan kertas) menyala""",PT,EPSON,L3110
+"Tuts spasi keyboard tidak bisa dipakai meski sudah dibersihkan. Wi-Fi susah terhubung, kadang hang saat area bawah laptop ketekan.","Cek tombol spasi, reinstall driver, cek Wi-Fi & kemungkinan short/tekanan bawah.",NB,Acer,Swift 3 SF314
+"Webcam/area bezel menekan panel, terdapat pressure mark; panel perlu ganti",Ada bercak hitam seperti tertekan di sudut layar,NB,Dell,Vostro 3400
+power supply rusak,PC tidak menyala dan tidak ada respon saat tombol power ditekan,PC,PC RAKITAN,PC Rakitan
+Unit sering mati sendiri dikarenakan overheat dan setelah dilakukan pengecekan cleaning dan pergantian pasta unit kembali normal dan juga dilakukan update driver dan bios,Pembersihan kipas dan repaste,NB,Asus,M409DA-EK511T
+SSD SATA berhasil di-upgrade,migrasi OS & data; instal antivirus serta pengecekan akhir,NB,TOSHIBA,DYNABOOK TECRA
+"RAM tidak terpasang sempurna, setelah reseat muncul tampilan",Layar kosong setelah dibersihkan/upgrade,PC,Acer,Veriton X
+"IC charging bermasalah, arus pengisian tidak masuk normal",Sudah ganti charger tapi tetap tidak charging,NB,HP,Pavilion 15
+"Dudukan engsel longgar akibat drop, perlu perbaikan frame","Habis jatuh, layar jadi tidak presisi saat ditutup",NB,Lenovo,ThinkPad E14
+"Keyboard numpad tidak fungsi karena NumLock/setting regional, dinormalkan",Numpad tidak jalan untuk input angka,PC,HP,ProDesk 400 G6
+Cleaning dan ganti pasta,laptop lemot tidak pernah clean up sepertiny,NB,acer,tidak tau serinya
+Motherboard terbakar,Dummy Data,PC,Asus,ROG
+"SSD sudah end-of-life (SMART life low), rekomendasi ganti segera",Sering blue screen saat akses file,PC,Lenovo,ThinkCentre M70s
+"Bootloader rusak, dilakukan perbaikan boot dan cek disk",Muncul tulisan No bootable device,NB,Acer,Swift 3
+"Dibersihin dan sudah update, tapi tuts spasi tetap nggak bisa. Laptop susah konek ke Wi-Fi, kadang nge-hang kalau bagian bawah laptop keteken. NB: keluhan keyboard spasi.","Cek keyboard (spacebar), cek koneksi Wi-Fi, cek indikasi hang saat casing bawah tertekan.",NB,HP,EliteBook 840 G5
+"Kabel HDMI bermasalah, setelah ganti kabel normal",Monitor kadang no signal padahal PC nyala,PC,Dell,OptiPlex 5070
+"Retak pada palmrest dekat engsel, perlu penggantian casing",Area dekat engsel pecah dan makin melebar,NB,Lenovo,IdeaPad 5
+unit tidak bisa power on,tidak ada respon saat tombol power ditekan,PC,ASUS,ExpertCenter
+"BIOS primary display salah, reset CMOS memperbaiki",Tidak tampil setelah ubah setting BIOS,PC,HP,EliteDesk 800 G3
+"Dilakukan cleaning fleksibel keyboard, update driver keyboard ttp saja msh blm bisa berfungsi sebagian. Kemungkinan kerusakan pada keyboardnya",Tombol keybaord ada beberapa yang tidak berfungsi,PC,Lenovo,PF343188
+engsel patah akibat tekanan di layar,engsel patah setelah layar tertekan dan kini tidak bisa ditutup rapat,NB,TOSHIBA,Dynabook
+"Pasta thermal sudah tidak merata, repaste + bersihkan debu",Laptop terasa panas di area keyboard,NB,Lenovo,ThinkPad E14
+SSD SATA sudah diganti dan migrasi selesai,backup & restore data; instal ulang OS beserta antivirus,NB,ACER,SWIFT 3
+Telah dilakukan buang daya laptop kembali bisa di charge,Tidak bisa charging. Sudah dicoba dengan charger lain masih belum charging.,NB,Lenovo,Thinkpad L13
+"Engsel kiri patah, berisiko putus kabel fleksibel, perlu ganti engsel","Kalau dibuka, layar jadi bergaris",NB,Dell,Inspiron 15
+"Engsel terlalu kencang, disetel ulang agar tidak merusak casing",Buka layar berat sekali sejak awal,NB,MSI,Modern 14
+"VGA card tidak mengeluarkan sinyal (fan mati), indikasi VGA rusak",PC nyala tapi tidak ada tampilan,PC,Acer,Aspire TC
+"Spacebar tetap tidak respon walau sudah dibersihin. Konek ke Wi-Fi kadang lama/gagal, laptop bisa hang kalau bagian bawah kepencet., ""Cek hardware keyboard, modul Wi-Fi","dan kondisi bawah (pressure).""",NB,MSI,Modern 14 B11
+Beberapa part gosong,Dummy Data,NB,Dell,Latitude
+"CPU cooler desktop kendor, re-seat cooler dan suhu stabil",PC panas tinggi dan sering restart saat render,PC,Dell,Precision Tower 3620
+baterai drop,kondisi baterai lemah dan sering mati mendadak,NB,HP,PAVILION
+"Kabel power internal longgar, setelah rapikan konektor normal",PC sering restart sendiri tanpa sebab,PC,HP,ProDesk 400 G5
+Selesai install antivirus type Lenovo ideapad,install antivirus,NB,Lenovo,Ideapad
+Dilakukan pergantian pasta dan cleaning. Unit masih lemot. Jadi user minta dilakukan pergantian RAM dan Upgrade hdd ke SSD. Hdd user 1tb dan ramnya 4gb. Windows 10,mulai lambat,NB,Lenovo,Lenovo ideapad 320
+Dilakukan pengecekan di bagian catridge terdapat tinta yg mengering di bagian nozel head nya Dilakukan clening +flushing nozel head  Printer sudah normal kembali,Print tidak rata,PT,HP,Deskjet 5810 series
+Hasil print sebelumnya tidak keluar Setelah dilakukan klining hasil print normal,Print tidak keluar hasil,PT,Epson,L110
+Dilakukan reset software page counter Dan clening head,Tanda tinta dan Kertas indokator menyala,PC,EPSON,L3110
+Psu rusak,Dummy Data,PC,Hp,Probook
+"Backlight LCD lemah/putus, tampilan redup (terlihat pakai senter)",Layar gelap tapi mesin menyala,NB,Lenovo,ThinkPad T14
+"IC backlight pada mainboard bermasalah, arus ke backlight tidak stabil",Layar sering redup-terang sendiri,NB,HP,Pavilion 15
+baterai cepat habis,persen baterai turun drastis dalam hitungan menit,NB,SAMSUNG,GALAXY_BOOK
+Dummy,Tidak bisa hidup,NB,Dell,Inspiron 3000
+sudah selesai di cleaning dan repasta,Cleaning dan repasta,NB,Hp,Victus 15
+"Monitor panel backlight mati, perlu ganti LED/backlight strip",Monitor gelap tapi ada bayangan gambar,PC,Lenovo,ThinkCentre M70s
+"Laptop menyala tapi keyboard rusak. perlu ganti keyboard, "" mati total, beberapa keyboard tidak bisa digunakan","tombol power tidak merespon. Namun untuk charging masih masuk dan merespon.""",NB,Notebook LENOVO,THINKPAD
+"Asus rog strix mati total, kadang bisa nyala tiba"" mati Dicek unit nyala, keyboard'y ada beberapa hurup tidak bisa dan ga bisa di shutdown",kadang mati total. kadang nyala tapi tiba tiba mati,NB,asus,rog strix
+baterai rusak sisa sekitar 37% dari normal,laptop cepat habis dan mudah shutdown,NB,FUJITSU,Lifebook U749
+"Kipas berisik karena bearing aus, rekomendasi ganti fan",Kipas bunyi kasar dan panas naik,NB,Dell,Inspiron 15
+Kabel fleksibel putus,Dummy Data,NB,Asus,ROG
+"GPU artefak saat panas, indikasi IC grafis bermasalah",Muncul kotak-kotak warna saat dipakai lama,NB,ASUS,TUF Gaming F15
+"LCD menampilkan garis vertikal permanen, indikasi panel rusak",Muncul garis-garis vertikal sejak kemarin,NB,Dell,Inspiron 14
+" Setting jaringan/proxy salah, reset network & proxy normal",Tidak bisa internet padahal WiFi/LAN tersambung,PC,Dell,Precision Tower 3620
+PC hidup tapi tidak muncul display,indikator power on namun monitor tidak menampilkan gambar,PC,Lenovo,ThinkCentre
+"Port DisplayPort longgar, perlu perbaikan port",Kalau kabel DP digerakkan gambar hilang,PC,Lenovo,ThinkCentre M720
+"CMOS battery habis, reset jam/setting BIOS, ganti baterai CMOS","Tanggal dan jam selalu balik lagi, kadang gagal boot",PC,Acer,Veriton X
+baterai error kapasitas tinggal 47%,persentase turun drastis dalam beberapa menit,NB,DELL,Latitude 5410
+kondisi baterai lemah tinggal sekitar 33%,cepat habis walau pemakaian ringan,NB,LENOVO,IdeaPad Slim 3
+"Laptop menyala tapi keyboard rusak, ""Sebelum mati total, beberapa keyboard tidak bisa digunakan (7, 8, U, I","H dan B) setelah kondisi tersebut esoknya laptop  tidak bisa menyala sama sekali dan tombol power tidak merespon. Namun untuk charging masih masuk dan merespon.""",NB,Notebook asus,A416E
+"Layout setting berubah, dikembalikan ke layout Indonesia/US sesuai kebutuhan","Huruf yang keluar tidak sesuai, jadi simbol terus",NB,MSI,Modern 14
+"Dilakukan buang daya, cleaning unit kembali nyala",pc tidak mau nyala,PC,Futura,N1000
+engsel kiri retak casing renggang,engsel kiri retak menyebabkan casing atas dan bawah renggang,NB,MSI,Modern 14
+"Partisi recovery/EFI bermasalah, disusun ulang partisi & reinstall",Setelah update Windows gagal masuk OS,NB,HP,Pavilion 14
+"Akun Windows profile corrupt, dibuat profile baru dan migrasi data","Setelah login, desktop kosong dan setting hilang",NB,HP,Pavilion 14
+"Mainboard VGA onboard rusak, solusi pasang VGA card eksternal",Tidak ada display dari port VGA onboard,PC,Lenovo,ThinkCentre M93p
+baterai melemah (kapasitas kurang lebih 29%),indikator cepat turun walau baru full,NB,TOSHIBA,Dynabook
+baterai sudah soak (tersisa kira-kira 28%),pemakaian sebentar langsung lowbat,NB,ACER,Aspire 5
+"Baterai health 32% (cycle tinggi), rekomendasi ganti baterai","Baterai cepat habis, baru dicabut sebentar langsung mati",NB,Lenovo,IdeaPad 3
+"SSD overheating (throttling), ditambah thermal pad dan airflow",Copy file besar selalu berhenti sendiri,NB,ASUS,TUF A15
+"Aplikasi sering crash karena runtime hilang, install ulang VC++/NET",Aplikasi kasir sering close sendiri,NB,Acer,Aspire 5
+"Unit user sering terjadi freeze tiba tiba saat tidak di gunakan dan Heatsink mengeluarkan bunyi., ""Laptop ngehang saat di charger","sebelumnya sudah pernah di servis. Masalah kambuh setelah setahun""",NB,Lenovo,Legion Y7000
+SSD SATA diganti sesuai request,instal OS dari awal + konfigurasi keamanan/antivirus,NB,SAMSUNG,GALAXY BOOK2
+Engsel patah,Dummy Data,NB,Xiaomi,Mi Book
+"Monitor backlight mati, perlu servis monitor",Monitor gelap tapi ada bayangan gambar,PC,Dell,OptiPlex 7050
+Tes,Dummy Data,NB,Asus,ROG
+Done,Gambar tidak muncul di layar,PC,Dell,Vostro 3471
+"Aplikasi auto-start terlalu banyak, dilakukan tuning dan update",PC lambat padahal spek bagus,PC,ASUS,Vivo AIO
+"Printer mengalami paperjam di bagian mekanik dalam, ada sisa kertas tertinggal menimbulkan error jam in tray satu",Paper jam. (Sptnya potongan kecil tp gabs diambil),PT,Brother,HL-T4000DW
+"Windows system corrupt (SFC/DISM gagal), rekomendasi reinstall OS",Laptop sering blue screen dan restart sendiri,NB,Acer,Swift 3
+"PSU drop, VGA tidak dapat power stabil; setelah ganti PSU normal","Kadang tampil, kadang mati sendiri saat boot",PC,ASUS,ROG Strix G10
+"Keyboard desktop kotor, dilakukan pembersihan, beberapa switch disarankan ganti",Tombol sering dobel input,PC,Dell,OptiPlex 5080
+"Kabel fleksibel (LVDS/eDP) longgar/aus, tampilan kadang muncul kadang hilang",Layar suka kedip-kedip kalau digerakkan,NB,Acer,Aspire 5
+"Setting BIOS USB legacy off, diaktifkan kembali",Keyboard tidak bisa dipakai saat di BIOS,PC,Acer,Veriton X
+"Refresh rate tidak sesuai monitor, diset ulang ke 60Hz","Setelah ubah refresh rate, layar jadi blank",PC,HP,ProDesk 600 G4
+PC mati total tidak dapat dinyalakan,indikator tidak menyala dan unit tidak power up,PC,Dell,Precision
+PC mati total tidak dapat dinyalakan,indikator tidak menyala dan unit tidak power up,PC,Dell,Precision
+Hp deskjet 5810 Hasil print black bergaris putu² -dilakukan pengecekan di bagian catridge black terdapat offer ink (bleber)  dan ada mampet sebagian -dilakukan pembersihan dan flush black ink (kuras tinta) Hasil print sudah normal.,Tinta hitam tidak keluar ketika mencetak,PT,HP,Deskjet GT 5810
+"Banyak adware/toolbar, dilakukan malware cleanup dan reset browser",Browser kebuka iklan terus dan lemot,NB,HP,14s
+HP 240 G8 SN:5CG311729Q,install antivirus,NB,HP,HP 14s
+kesehatan baterai menurun (sisa �42%),daya drop dan tidak tahan lama,NB,ASUS,VivoBook 14
+Dummy,Dummy Data,NB,Hp,Pavilion
+"kabel lcd putus, perlu ganti kabel lcd",layar tidak muncul apa apa,NB,Dell,Dell
+"Thermal paste CPU mengering, repaste dan normal",Suhu CPU 90C saat idle,PC,Lenovo,ThinkCentre M910
+Dummy,Dummy Data,NB,Lenovo,Thinkpad
+"penggantian SSD SATA berhasil, transfer data pengguna; instal driver, OS",dan antivirus,NB,LENOVO,THINKBOOK 14
+Setelah beberapa kali di lakukan cleaning Dan pembersihan print head Hasil tetap sama Solusi: replace cartridge black,Tinta hitam putus-putus,PT,Canon,G1010
+"Sudah dilakukan pengecekan pada driver dan hardware, kerusakan pada hardware keyboard dan juga dilakukan  cleaning dan pergantian pasta, ""Keyboard bermasalah setelah lama sudah tidak dipakai","ada yang tidak bisa  di tekan""",NB,Acer,Aspire 3
+"SSD terdeteksi bad block meningkat, disarankan cloning & ganti SSD",Laptop sering hang dan loading lama,NB,Dell,Inspiron 15
+"Kipas CPU lemah (RPM rendah), rekomendasi ganti fan",Laptop cepat panas walau baru buka browser,NB,ASUS,VivoBook 14
+Dilakukan pengecekan di erea sensor endcoder setrip dan endcoder disk terdapat kotoran menempel Dilakukan cleaning endcoder setrip dan disk + rebuild pcb head Dan printer sudah bisa normal kembali,printer rusak,PT,Brothers,hl-T4000DW
+Epson L14150 -printer online/ready tapi tidak mau print,Kertas tidak keluar tetapi printer online dan ready,PT,EPSON,L14150
+Dummy data,Dummy Data,NB,Xiaomi,Mi Book
+Keyboard rusak,Dummy Data,NB,Lenovo,Thinkpad
+unit tidak bisa power on,tidak ada respon saat tombol power ditekan,PC,ASUS,ExpertCenter
+baterai bermasalah,daya cepat habis dan tidak tahan lama,NB,ASUS,VIVOBOOK
+Laptop sudah nyalah kembali,Pengecekan mesin dan repasta. Laptop hidup namun layar tidak hidup. Sering mengalami reboot,NB,Lenovo,Ideapad Gaming 3
+"Sudah dilakukan buang daya unit berkedip 3 kali pada tombol power tidak ada tampilan, dilakukan juga pembersihan pada ram masih tetap berkedip 3 kali",dilakukan cabut kabel cmos unit lampu tombol power menyala normal tetapi tidak ada tampilan. Kesimpulan unit mengalami kerusakan pada motherboard.,NB,Lenovo,Thinkpad T460
+"Driver HID/keyboard error setelah update, reinstall driver berhasil",Keyboard tidak berfungsi setelah update Windows,NB,Lenovo,IdeaPad 5
+Unit mati total,unit dibongkar di cleaning ganti pasta n bersihin ram,NB,Lenovo,Thinkpad
+Dummy,Dummy Data,NB,Dummy,Dummy
+Sudah Oke,Hasil cetak kotor di bagian kiri kertas,PT,HP,Laser Jet Pro M203d
+"Power button front panel short, perlu ganti switch/panel",PC nyala sendiri walau tidak dipencet,PC,Dell,OptiPlex 5070
+"Engsel unit 2-in-1 aus (flip), rekomendasi penggantian engsel",Mode tablet longgar dan berbunyi,NB,Lenovo,Yoga Slim 7
+"Sudah dilakukan pengecekan, jarum di kabel vga masih aman tidak ada penyok. Coba tuker pake kabel vga backup ttp layar bergaris, dicoba tuker monitor ke pc sebelah ttp bergaris. Jadi kerusakan pada monitornya, ""Layar monitor bergaris pada bagian bawah","padahal tidak jatuh dan tidak kepentok""",PC,HP,123456
+PSU drop,kipas nyala sebentar lalu PC langsung mati kembali,PC,PC RAKITAN,PC Rakitan
+unit menyala tetapi layar blank,tombol power berfungsi namun tidak ada tampilan,PC,HP,EliteDesk
+"Dilakukan pembersihan pada wifi card saat dinyalakan unit tidak bisa masuk windows, info sebelumnya dari user memang agak lemot, kerusakan untuk wifi tidak bisa dicoba dan kemungkinan ada kerusakan pada ssd karena tidak bisa masuk windows.",wifi eror,NB,Lenovo,Thinkpad T460s
+"Setelah dilakukan pengecekan, terdapat kerusakan pada mika sensor roller dan hasil print putus pada warna hitam dan magenta. Setelah di lakukan perekatan kembali pada mika, dan power cleaning, printer sudah kembali normal., ""Printer rusak","saat cetak tulisannya patah patah""",PT,Epson,L3210
+"GPU overheating, thermal paste kering; setelah servis suhu normal",Main game sebentar langsung artefak lalu blank,PC,ASUS,ROG G15DK
+"Keyboard tombol spasi nggak berfungsi walau sudah dibersihkan. Konek Wi-Fi sering susah, kadang hang kalau bagian bawahnya kepencet.","Periksa spacebar, driver keyboard, modul Wi-Fi, dan kondisi fisik bawah laptop.",NB,Dell,Latitude 5400
+"Sticky keys/Filter keys aktif, dinonaktifkan dan normal",Keyboard terasa delay dan bunyi bip,NB,ASUS,ZenBook 14
+engsel macet sulit dilipat,engsel macet dan layar sulit dilipat seperti biasanya,NB,HP,Pavilion 14
+"kabel ada yang copot, sudah dipasang kembali, sudah ada tampilan saat dinyalakan",power menyala tetapi display tetap hitam,NB,Asus,ROG
+Pin adaptor longgar,Tidak bisa charging,NB,Lenovo,L13
+"Windows activation/service error, dilakukan perbaikan service dan aktivasi sesuai lisensi",Muncul watermark Activate Windows,PC,Dell,OptiPlex 7060
+"VGA card tidak terdeteksi (fan mati), indikasi VGA rusak",PC nyala tapi tidak ada tampilan sama sekali,PC,Lenovo,ThinkCentre M720
+"Driver audio/service konflik, reinstall driver audio berhasil",Suara hilang setelah update,PC,HP,ProDesk 600 G4
+baterai drop (health tersisa �41%),pemakaian sebentar langsung habis,NB,CHUWI,HeroBook
+"HDD bunyi klik (SMART warning), rekomendasi ganti HDD/upgrade SSD",File sering corrupt dan lemot sekali,NB,HP,15s
+baterai rusak kapasitas tinggal sekitar 35%,baterai cepat habis meski baru dicas,NB,HP,Pavilion 14
+"Driver VGA konflik, bersihkan dengan DDU & install driver sesuai","Setelah install driver, layar jadi hitam",PC,HP,EliteDesk 800 G3
+power supply bermasalah,tegangan tidak stabil sehingga PC sering hang/freeze,PC,PC RAKITAN,PC Rakitan
+"Backlight keyboard tidak menyala (kabel backlight putus), perlu ganti keyboard",Lampu keyboard tidak bisa nyala sama sekali,NB,Dell,Latitude 5420
+PSU tidak normal,tercium bau gosong dan PC gagal boot,PC,PC RAKITAN,PC Rakitan
+"Setelah dilakukan pengecekan cleaning kerusakan terjadi pada motherboard dikarenakan koslet . Dan harus dilakukan pergantian mobo, ""Laptop Mati Total","dicas tidak respon""",NB,Asus,TUF A15 FX506IV
+"Heatsink berdebu + thermal paste kering, setelah cleaning suhu turun","Laptop panas sekali, kipas kencang, performa turun",NB,Lenovo,Yoga Slim 7
+"Driver grafis corrupt, setelah reinstall driver tampilan normal",Resolusi aneh dan layar berkedip setelah update,NB,Lenovo,IdeaPad 3
+"Thermal paste kering, repaste dan normal",Laptop panas dan throttling saat meeting video,NB,HP,Pavilion 15
+engsel longgar layar goyang,engsel longgar membuat layar bergoyang dan tidak stabil,NB,LENOVO,IdeaPad 3
+"LCD konektor berkarat/oksidasi (bekas cairan), tampilan noisy",Layar bersemut setelah ketumpahan minum,NB,MSI,Modern 14
+"Dibersihin dan sudah update, tapi tuts spasi tetap nggak bisa. Laptop susah konek ke Wi-Fi, kadang nge-hang kalau bagian bawah laptop keteken. NB: keluhan keyboard spasi., ""Cek keyboard (spacebar), cek koneksi Wi-Fi","cek indikasi hang saat casing bawah tertekan.""",NB,HP,EliteBook 840 G5
+"Driver grafis konflik, setelah reinstall driver tampilan normal",Resolusi berubah sendiri dan layar berkedip,NB,Lenovo,ThinkPad T480
+"Kabel fleksibel eDP aus, layar flicker saat digerakkan, perlu ganti fleksibel",Layar kedip-kedip kalau posisi tertentu,NB,ASUS,ZenBook 13
+"Panel LCD pecah (retak internal), perlu ganti LCD",Layar bergaris dan pecah setelah terjatuh,NB,ASUS,VivoBook 14
+"IC eDP/LVDS retimer bermasalah, tampilan blank tapi eksternal normal","Layar laptop blank, tapi kalau pakai HDMI ke TV tampil",NB,Acer,TravelMate P2
+"Port HDMI motherboard longgar, perlu re-solder/replace port","Kalau kabel digoyang, gambar hilang",PC,HP,ProDesk 400 G6
+Battery rusak,Dummy Data,NB,LENOVO,IDEAPAD
+upgrade SSD SATA tuntas,setting partisi + instal OS fresh + update dan pasang antivirus,NB,DELL,LATITUDE 5420
+ganti SSD SATA selesai,copy data manual + setup OS + instal antivirus dan update,NB,HUAWEI,MATEBOOK D15
+"Kabel HDMI/VGA eksternal rusak, setelah ganti kabel tampilan normal","Monitor kadang no signal, kadang muncul",PC,Dell,OptiPlex 7090
+"Tuts spasi keyboard tidak bisa dipakai meski sudah dibersihkan. Wi-Fi susah terhubung, kadang hang saat area bawah laptop ketekan., ""Cek tombol spasi, reinstall driver","cek Wi-Fi & kemungkinan short/tekanan bawah.""",NB,Acer,Swift 3 SF314
+"Kapasitas storage penuh + banyak temp file, dilakukan cleanup","Penyimpanan selalu merah, laptop terasa berat",NB,Dell,Vostro 3400
+"Baut engsel hilang/longgar, dikencangkan dan diberi threadlocker",Layar terasa longgar setelah servis sebelumnya,NB,Acer,Aspire 5
+PSU rusak total,indikator motherboard tidak menyala dan PC mati total,PC,PC RAKITAN,PC Rakitan
+"Acer Swift SFC 14-41G Cleaning dan ganti pasta, ""Ganti pasta laptop bawa sendiri, clean up laptop, pengecekan hardware/software","konsultasi""",NB,Acer Swift SFX14-41G,15105110934
+"Printer epson L3110 SN. X6NX007844 hasil print bergaris pada warna ciyan, setelah di lakukan cleaning hasil print kembali normal.",Full berwarna bergaris garis,PT,EPSON,L3110
+"Dilakukan power influs manual  Dilakukan print head cleaning, ""Saat printing hasilnya yang ke print tidak full","hilang2 tintanya yang ke print""",PT,EPSON,L3210
+"Konflik antivirus, uninstall total dan ganti yang kompatibel",Aplikasi kantor tidak bisa dibuka setelah pasang antivirus,NB,MSI,Modern 15
+Sudah di Repasta,Cleaning dan repasta untuk pemakaian gaming,NB,Dell,Alienware
+"Spacebar tetap tidak respon walau sudah dibersihin. Konek ke Wi-Fi kadang lama/gagal, laptop bisa hang kalau bagian bawah kepencet.","Cek hardware keyboard, modul Wi-Fi, dan kondisi bawah (pressure).",NB,MSI,Modern 14 B11
+"Update Windows gagal (error patch), dilakukan repair update components",Update selalu gagal dan stuck,NB,Dell,Inspiron 14
+engsel kanan patah cover terbuka,bagian engsel kanan patah sehingga cover belakang terbuka,NB,DELL,Inspiron 15
+"Slot PCIe kotor/aus, setelah dibersihkan VGA terbaca stabil",Tampilan muncul-hilang setelah pindah tempat,PC,MSI,Trident 3
+"NVMe tidak terbaca karena BIOS lama, setelah update BIOS terbaca",SSD NVMe tidak muncul di BIOS,PC,Acer,Aspire TC
+"Konektor LCD oksidasi (bekas cairan), dibersihkan namun panel tetap noise","Setelah ketumpahan minum, layar bersemut",NB,MSI,Modern 15
+"Selesai install anti virus, Type HP 14s SN: 5CG011C7TPI",install antivirus,NB,HP,HP 14s
+"PSU 12V drop saat load, rekomendasi ganti PSU",PC hidup sebentar lalu mati sendiri saat dipakai,PC,Dell,OptiPlex 7050
+Dilakukan pengecekan unit terdapat blinking lampu orange menyala. Dilakukan reset software + penambahan tinta Dan power influs manual Printer sudah normal kembali,Tidak mau printer,PT,Epson,L3210
+"HDD sektor lemah, dilakukan bad sector check, disarankan ganti","Buka folder lama banget, kadang error CRC",PC,Lenovo,ThinkCentre M910
+baterai sudah tidak optimal (sekitar 26%),waktu pakai singkat dan sering minta charger,NB,HUAWEI,MateBook D14
+Dummy data,Dummy Data,NB,LENOVO,IDEAPAD
+Sudah dilakukan clean up dan install ulang windows 10 pro,Instal Ulang drive c,PC,Dell,Aio
+"Printer Epson L121 Serial No. X9LU020170 hasil print bergaris pada warna hitam, setelah di cleaning atau maintenance hasil print sudah kembali normal",Hasil cetakan bergaris garis,PT,EPSON,L121
+"Keyboard spasi tidak jalan walau sudah dibersihkan & update. Wi-Fi susah connect, sesekali hang kalau bagian bawah laptop ditekan.","Pengecekan keyboard space, jaringan Wi-Fi, dan inspeksi bagian bawah perangkat.",NB,Huawei,MateBook D14
+baterai drop parah (health �31%),laptop cepat mati saat tidak pakai adaptor,NB,MSI,Modern 14
+"Adaptor charger drop (tegangan tidak stabil), perlu ganti adaptor","Dicolok charger tidak ngisi, kadang nyambung kadang putus",NB,ASUS,VivoBook 14
+baterai soak,waktu pakai singkat meski sudah full charge,NB,HUAWEI,MATEBOOK
+"Bezel menekan panel karena engsel tidak rata, perlu align dan servis engsel",Layar seperti tertekan di sudut saat ditutup,NB,ASUS,TUF A15
+Printer Epson L3110 Sn: X5DX124911 hasil print tidak keluar tinta.,tinta tidak keluar,PT,hp,l3110
+"Asus SN:N1N0CV00N38301D mati total kena siram air kopi Dicek dibersihkan motherboard, keyboard, ram, batre dan covernya unit tetap tidak bisa nyala dan tidak ada indikator yang hidup",Laptop mati diakibatkan tumpahan kopi yang mengenai keyboard pada tanggal 22 juli 2025,NB,Asus,A416E
+"Slot M.2 utama bermasalah, SSD normal di slot lain/enclosure",SSD tidak terbaca di BIOS padahal baru,NB,Lenovo,IdeaPad Slim 5
+perlu ganti lcd,display tidak ada padahal laptop menyala,NB,HP,Elitebook
+"Fleksibel keyboard longgar, setelah re-seat normal","Keyboard tiba-tiba mati, tapi touchpad normal",NB,Acer,Aspire 7
+"Tidak bisa dilakukan charger saat unit menyala, ""Jika di cash laptop keadaan hidup tidak bisa tetapi kalau keadaan mati baru bisa ke isi batre","Saya pernah menggunakan cashan teman yang bermerk asus juga itu bisa di cash dalam keadaan laptopp menyala""",NB,ASUS,2019
+Touch pad tetap tidak bisa setelah di cleaning,Touchpad laptop tidak berfungsi,NB,Lenovo,0000
+"Array/partisi salah konfigurasi, dilakukan perbaikan konfigurasi disk",Drive D tiba-tiba hilang setelah restart,PC,Dell,Precision Tower 3620
+baterai tidak mengisi,charger terdeteksi tapi baterai tetap tidak bertambah,NB,TOSHIBA,DYNABOOK
+"Battery mengalami kerusakan, kesehatan batterynya hanya tinggal 20%",Battery cepat habis,NB,DELL,Inspiron 14 3000
+"Fan curve/BIOS lama, update BIOS dan fan control normal",Kipas sering tidak nyala sampai panas banget,NB,Dell,Latitude 5420
+engsel patah saat layar dibuka,layar sulit dibuka dan bagian engsel terasa patah,NB,ASUS,VivoBook 14
+"Motherboard VRM tidak stabil, butuh pengecekan lanjutan/replace","PC kadang nyala kadang tidak, kipas cuma muter sebentar",PC,Lenovo,ThinkCentre M720
+"Motherboard rusak, beberapa bagian ada yang terbakar",Dummy Data,NB,Asus,ROG
+"Sekrup engsel aus (drat dol), perlu insert/replace",Sekrup engsel tidak bisa dikencangkan,NB,Acer,TravelMate P2
+"Backlight panel lemah, tampilan redup, perlu ganti panel/backlight",Layar gelap tapi masih ada bayangan,NB,Lenovo,IdeaPad 3
+Yang menyebabkan laptop sering bluescreen adalah karena overheat. sudah dilakukan ganti pasta dan hasilnya normal. untuk keyboardnya rusak perlu di ganti,mati total dan bluescreen keyboard tidak berfungsi,NB,Lenovo,Thinkpad
+"LCD menampilkan warna pink/kuning, indikasi panel aging/defect",Warna layar jadi kekuningan tidak normal,NB,Lenovo,Yoga Slim 7
+"Dead pixel banyak (cluster), rekomendasi ganti panel",Ada titik-titik hitam/putih makin banyak,NB,HP,Pavilion 14
+Selesai install anti virus. Type laptop HP ELITEBOOK 839,install antivirus,NB,HP,HP 14s
+"Tuts spasi keyboard masih tidak bisa. Koneksi Wi-Fi kadang susah, dan perangkat kadang hang saat bagian bawah laptop ketekan.","Cek tombol spasi, troubleshooting Wi-Fi, cek kemungkinan tekanan bawah memicu hang.",NB,LG,Gram 14
+Yang menyebabkan laptop sering bluescreen adalah karena overheat. sudah dilakukan ganti pasta dan hasilnya normal. untuk keyboardnya rusak perlu di ganti,Sering mengalami bluescreen dan banyak tombol yang tidak bisa diketik,NB,Lenovo,Thinkpad X1
+Setelah dilakukan pengecekan kendala pada fan eksternal rusak dan dilakukan cleaning dan pergantian pasta,Fan bunyi dan berdebu,PC,Pc rakitan,ASROCK X570
+Dilakukan  power influshing manual dari pembuangan tinta. Dan printer kembali normal  lg,Tinta tidak mau keluar,PT,Epson,L3110
+baterai rusak,indikator baterai tidak terbaca/0% terus,NB,DELL,INSPIRON
+Sudah normal,Test,NB,Dell,Inspiron
+"Port power (DC-in) pada AIO longgar, perlu perbaikan port",Komputer AIO tidak bisa nyala kecuali kabel ditekan,PC,ASUS,Vivo AIO
+"Dudukan engsel (bracket) lepas, perlu perbaikan rangka/top cover",Layar jadi goyang dan tidak bisa tegak,NB,ASUS,VivoBook 15
+Tinta habis warna hitam,Dummy Data,PT,Epson,Printer Besar
+"Fan casing mati, airflow buruk, ganti fan casing",PC panas walau tidak dipakai berat,PC,HP,EliteDesk 800 G3
+"Setting input monitor salah (bukan HDMI/DP), setelah set ulang tampil",Monitor nyala tapi tulisan 'No Signal',PC,MSI,MAG Infinite S
+"Bracket engsel patah, wajib ganti bracket & servis casing",Ada celah besar di sisi engsel,NB,Dell,Vostro 3400
+Unit tidak ada tampilan tetapi power on,Tidak bisa power on,PC,Dell,Optiplex
+"Beberapa tombol tidak respons, indikasi keyboard aus, ganti keyboard",Tombol A S D kadang tidak jalan,NB,Lenovo,ThinkPad T14
+"Motherboard rusak, ada konslet  .",Dummy Data,NB,Asus,ROG
+baterai aus tinggal �44% saja,baterai boros dan cepat low,NB,LG,Gram 14
+tinta mampet di ink cariage warna black - tinta juga kosong di bagian cariage nya - dilakukan power influshing manual di bagian ink cariage dan di bagian pompa pembuangan - setelah selesai dilakukan tes print oleh user printer kembali normal..,Hasil printer tidak ada padahal tinta masih ada.,PT,Epson,L3150
+"Overcurrent pada USB menyebabkan proteksi, ditemukan USB port short",Colok flashdisk bikin PC langsung mati,PC,HP,EliteDesk 800 G3
+penggantian SSD SATA & migrasi beres,optimasi sistem setelah instal OS + pasang antivirus,NB,LG,GRAM 15
+"Sistem file corrupt akibat force shutdown, perlu repair/backup data",Laptop sering minta scan and repair terus,NB,MSI,Modern 15
+"Disk error menyebabkan aplikasi freeze, dilakukan chkdsk dan perbaikan file sistem",Sering not responding saat buka aplikasi,PC,Acer,Aspire TC
+SSD SATA baru terpasang,migrasi aplikasi & dokumen; aktivasi OS dan instal antivirus,NB,HP,PROBOOK 440
+Cleaning & Repasta,CLEANING & REPASTA,NB,DELL,ALIENWARE
+"Short pada board (area USB/power rail), perlu perbaikan board",Laptop tiba-tiba mati dan tidak bisa nyala lagi,NB,MSI,Modern 14
+tidak ada tampilan saat dinyalakan,power menyala tetapi display tetap hitam,PC,Acer,Veriton
+baterai error,charging putus-nyambung dan persen naik turun,NB,MSI,MODERN
+"Heatsink tidak menempel sempurna (sekrup longgar), dilakukan re-mount",Suhu tiba-tiba tinggi padahal kipas normal,NB,MSI,Modern 14
+Kabel kendor,Dummy Data,NB,Asus,ROG
+Dilakukan pemberihan pada kabel dari lcd ke motherboard unit masih mengalami lcd berbayang. Kerusakan ada pada lcd atau kabel lcd.,Layar,NB,Lenovo,Ideapad Gaming 3
+"Casing back cover retak, titik tumpu engsel lemah, rekomendasi ganti cover",Tutup layar terasa miring,NB,ASUS,ZenBook 14
+Selesai install antivirus type HP 240 G8 SN: 5CG3503GZ6,install antivirus,NB,HP,HP 14s
+Cleaning,pc agak lemot perlu dibersihkan dan ganti pasta,PC,pc rakit,intel core I5-13400F
+Dummy data,Dummy Data,NB,Asus,ROG
+selesai pemasangan SSD SATA,clone disk + verifikasi boot; instal antivirus dan update OS,NB,MSI,MODERN 15
+Dilakukan cleaning,Saat print hasilnya tidak tidak bagus Tinta nya tidak tercetak jelas di kertas,PT,Epson,L3210
+"Port USB depan drop, pindah ke port belakang normal",Keyboard USB sering mati nyala,PC,HP,EliteDesk 800 G3
+"Spasi di keyboard masih nggak jalan setelah cleaning dan update. Mau sambung Wi-Fi sulit, sesekali nge-freeze kalau bawah laptop ditekan., ""Diagnosa keyboard space, troubleshooting Wi-Fi","cek flex/casing bawah.""",NB,ASUS,ZenBook UX430
+"Warna tidak normal (tint kuning/pink), indikasi panel aging",Warna layar jadi kekuningan,NB,Dell,Inspiron 14
+"Battery connector longgar, setelah re-seat pengisian normal","Kadang terdeteksi charging, kadang tidak",NB,Lenovo,ThinkPad T480
+PSU error,PC restart sendiri terutama saat beban tinggi,PC,PC RAKITAN,PC Rakitan
+Terimakasih,Tidak bisa hidup,NB,Dell,Inspiron 3000
+"Engsel berkarat (kelembapan), dilakukan pembersihan & penggantian bila perlu",Engsel bunyi dan terasa seret,NB,HP,ProBook 440
+"Keyboard tombol spasi nggak berfungsi walau sudah dibersihkan. Konek Wi-Fi sering susah, kadang hang kalau bagian bawahnya kepencet., ""Periksa spacebar, driver keyboard, modul Wi-Fi","dan kondisi fisik bawah laptop.""",NB,Dell,Latitude 5400
+Unit overheat dilakukan cleaning pergantian pasta update driver dan pemasangan fan processor dan unit kembali normal,Re-paste,NB,ASUS,m409da-ek511t
+"Port SATA motherboard bermasalah, pindah port lain normal",HDD terdeteksi tapi sering disconnect,PC,HP,ProDesk 600 G4
+"Resolusi/refresh rate terlalu tinggi untuk monitor, turunkan setting",Layar blank setelah ubah refresh rate ke 144Hz,PC,HP,ProDesk 600 G5
+"DC jack longgar/retak, perlu solder ulang atau ganti port","Kalau charger digoyang, laptop ikut mati/nyala",NB,Acer,Aspire 5
+"Printer canon G2010 selang infus mampet karena secondary tabung tinta kosong, mengakibatkan tinta tidak sampai ke print head catridge. Setelah di perbaiki printer sudah normal kembali",Permasalahan tinta macet tidak mengalir sempurna ke kertas jadi warna tidak keluar secara sempurna,PT,Canon,Pixma
+"Panel LCD retak internal, wajib ganti LCD",Layar bergaris dan pecah setelah terjatuh,NB,Acer,Aspire 5
+"Palmrest bengkok menekan keyboard, perlu perbaikan casing",Tombol sering kepencet sendiri saat ditutup,NB,Acer,Swift 5
+"Receiver wireless bermasalah, ganti receiver/baterai normal",Keyboard wireless sering disconnect,PC,Lenovo,ThinkCentre M720
+"GPU overheat saat gaming, perlu cleaning & undervolt/setting",Main game sebentar langsung drop FPS,NB,ASUS,TUF A15
+"BIOS setting primary display salah, reset CMOS memperbaiki",Tidak tampil setelah ubah setting BIOS,PC,Dell,Precision Tower 3620
+baterai bermasalah sisa kapasitas sekitar 39%,charging normal tapi cepat habis saat dipakai,NB,SAMSUNG,Galaxy Book
+Cleaning dan tambah termal pasta,laptop sering panas dan lemot (tdk pernah clean up dan ganti pasta 2tahun😭),NB,asus,vivobook pro 14x
+"Setting power plan/driver ACPI error, setelah reinstall driver normal",Persentase baterai naik turun tidak wajar,NB,ASUS,TUF Gaming F15
+"Brightness control bermasalah (sensor/firmware), setelah update BIOS normal",Brightness tidak bisa diatur dan layar tiba-tiba redup,NB,Dell,Latitude 5420
+"Storage penuh + startup berat, dilakukan optimasi startup dan cleanup",Laptop lemot sekali saat nyala,NB,Lenovo,IdeaPad 3
+Selesai install anti virus Dell,install antivirus,NB,Dell,HP 14s
+Setelah dilakukan pengecekan selang tinta dan catridge nya ternyata mengalami masuk angin atau tinta macet di bagian selang menuju ke rumah catrid,Kalau print tintanya tidak nyata / burem padahal tinta belum habis.,PT,Canon,InkJet Pixma G570
+"Kabel power rusak, battery rusak",Dummy Data,NB,Dell,Latitude
+"Dibersihkan n di update tuts spasi tetep ga bisa, ""Laptop lenovo thinkpad T450, keluhan spasi dikeyboard gabisa, mau konek ke wifi susah","kadang nge hang kalau bagian bawah laptop keteken""",NB,Lenovo,Thinkpad
+Setelah di bersihkan unit kembali normal,Gabisa di charge,NB,Lenovo,520
+"Port DisplayPort bermasalah, pindah ke port lain/replace port","Kalau pakai DP tidak muncul, pakai HDMI normal",PC,Acer,Aspire TC
+"Kerusakan pada motherboard, ""Pc bermasalah cpu menyala tapi tidak tampil di monitor tidak tau kerusakannya dimana","ganti pasta dan merapikan kabel pc yg kurang rapi""",PC,ASrock,Bm450
+"Setting waktu/tanggal salah menyebabkan error sertifikat, disesuaikan","Tidak bisa buka website tertentu, muncul certificate error",NB,Dell,Vostro 3400
+"Dilakukan pembersihan motherboard, penggantian pasta, dan pengecekan motherboard secara fisik, dan pengecekan LCD, ""Tiba-tiba layar lcd gelap, tapi sisanya kondisi laptop normal menyala","masih keliatan juga layarnya tapi harus disenterin.""",NB,lenovo,ideapad slim 3
+"Speaker tidak berfungsi, setelah dilakukan cleaning hardware board dan update driver speaker kembali normal dan juga dilakukan cleaning dan pergantian pasta processor .",Audio speaker tidak berfungsi,NB,Lenovo,Ideapad S145-14AST
+"OS terinfeksi malware, dilakukan scan offline dan pembersihan",File hilang sendiri dan muncul shortcut aneh,PC,Lenovo,ThinkCentre M910
+"Keyboard kena cairan (korosi), perlu ganti keyboard dan bersih konektor","Setelah ketumpahan teh, tombol jadi ngetik sendiri",NB,ASUS,VivoBook 14
+Dummy data,Dummy Data,PC,Asus,ROG
+"Dicek pakai adaptor user, laptop tidak bisa nyala, dicoba pakai adaptor yg lain, laptop bisa nyala, kemudian laptop di bongkar dan ganti pasta, karna user bilang laptopnya sering mati sendiri atau overhead",Tidak mau dicharge.,NB,Hp,Hp Notebook
+"Engsel seret menyebabkan bezel terangkat, disarankan ganti satu set engsel",Bezel atas terbuka dan layar susah ditutup,NB,HP,Pavilion 15
+"Spasi di keyboard masih nggak jalan setelah cleaning dan update. Mau sambung Wi-Fi sulit, sesekali nge-freeze kalau bawah laptop ditekan.","Diagnosa keyboard space, troubleshooting Wi-Fi, cek flex/casing bawah.",NB,ASUS,ZenBook UX430
+"Debu tebal di sirip heatsink, airflow tersumbat",Laptop panas dan sering freeze,NB,Acer,Swift 3
+selesai penggantian SSD SATA + migrasi data + instal OS + antivirus,cloning sistem lama ke SSD baru lalu konfigurasi OS dan antivirus,NB,ASUS,VIVOBOOK 14
+"Ventilasi tertutup (pemakaian di kasur), edukasi + cleaning",Laptop sering mati mendadak saat dipakai di kasur,NB,Acer,Aspire 5
+"Tombol tertentu keras/macet, perlu pembersihan atau replace keycap mechanism",Tombol spasi susah dipencet,NB,HP,ProBook 440
+"Setelah buang daya, cleaning dan repasta laptop nyala kembali dan berjalan dengan normal",Laptop mati total setelah di sleep selama seminggu. Saat di cas lampu indikator mati.,NB,Lenovo,Ideapad 110-14
+Unit telah di cleaning dan repasta. Unit nyala normal,kotor dan mau ganti pasta,NB,Asus ROG,a46cm
+tidak ada tampilan saat dinyalakan,power menyala tetapi display tetap hitam,PC,Acer,Veriton
+"Engsel kiri patah, menarik fleksibel LCD hingga muncul garis/hilang tampilan",Layar berubah kalau dibuka-tutup,NB,HP,ProBook 440
+"Heatsink penuh debu, dilakukan pembersihan total",PC bunyi kipas kencang terus,PC,Acer,Veriton X
+"GPU/IGPU overheating, muncul artefak; perlu perbaikan pendinginan & cek IC",Layar muncul kotak-kotak/warna pecah saat dipakai lama,NB,ASUS,TUF Gaming F15
+"Tombol spasi di keyboard nggak fungsi meski sudah dibersihkan. Untuk konek Wi-Fi susah, dan kadang nge-hang kalau bawah laptop ke-teken.","Cek mekanik spacebar, driver, uji Wi-Fi, cek casing bawah/komponen.",NB,Samsung,Galaxy Book Pro
+"Sudah dilakukan cleaning, copot pasang fleksibel keyboard dan settingan, keyboard tetap tidak bisa, ""Keyboard error, sering ketik otomatis","satu tombol menekan terus""",NB,Dell,Vostro
+"Dibersihkan n di update keyboard tuts spasi tetap ga bisa, ""Laptop lenovo thinkpad T450, keluhan spasi dikeyboard gabisa, mau konek ke wifi susah","kadang nge hang kalau bagian bawah laptop keteken""",NB,Lenovo,Thinkpad
+"Kabel SATA rusak, setelah ganti kabel normal",Storage sering tidak terdeteksi setelah dipindah,PC,Dell,OptiPlex 7040
+"Konflik aplikasi macro/driver, uninstall aplikasi penyebab",Keyboard jadi ngetik shortcut sendiri,PC,ASUS,ROG Strix G10
+Dummy,Dummy Data,PT,Epson,Printer Besar
+hinge retak dan bunyi krek,ada retakan pada engsel dan muncul bunyi saat buka tutup layar,NB,ACER,Aspire 5
+"Mekanisme engsel aus, perlu penggantian engsel","Layar tidak bisa menahan posisi, jatuh ke belakang",NB,Acer,Swift 3
+"Screen flicker akibat refresh rate/resolusi tidak sesuai, set ulang display",Layar berkedip di aplikasi tertentu,NB,ASUS,ZenBook 13
+"Layar blank tapi output eksternal normal, indikasi panel/fleksibel rusak","Kalau pakai HDMI ke TV tampil, layar laptop kosong",NB,Dell,Latitude 5420
+"Driver VGA corrupt, dibersihkan DDU lalu install driver resmi",Layar jadi hitam setelah install driver,NB,ASUS,TUF Gaming F15
+PSU bermasalah,power tidak stabil dan PC sering mati sendiri,PC,PC RAKITAN,PC Rakitan
+unit menyala tetapi layar blank,tombol power berfungsi namun tidak ada tampilan,PC,HP,EliteDesk
+PC hidup tapi tidak muncul display,indikator power on namun monitor tidak menampilkan gambar,PC,Lenovo,ThinkCentre
+Repasta,Cleaning dan repasta untuk gaming,NB,HP,Victus 15
+"HP 14 D004AX laptop tidak nyala  Dicek bersihkan ram, ganti pasta",Laptop tidak bisa hidup. Padahal tadi semalam dan tadi pagi masih bisa saya pakai,NB,HP,HP-14
+"Tombol power fleksibel rusak/intermitten, perlu ganti board tombol",Tombol power harus ditekan berkali-kali baru nyala,NB,Dell,Inspiron 14
+baterai tidak normal,tidak mengisi saat charger terpasang,NB,ACER,ASPIRE
+"GPU desktop overheat, bersihkan dan ganti thermal pad",Main game muncul artefak lalu crash,PC,ASUS,ROG Strix G10
+Dummy,Dummy Data,NB,Asus,ROG
+"Panel LCD dead pixel banyak, sesuai batas klaim perlu penggantian panel",Ada titik-titik hitam putih makin banyak,NB,Acer,Swift 3
+"Selesai ganti SSD sata 256gb, migrasi OS, dan install anti virus",ganti ssd,NB,HP,14s
+Pengecekan mesin dan repasta,Laptop sudah nyalah kembali. Laptop hidup namun layar tidak hidup. Sering tiba tiba rebooy,NB,Lenovo,Thinkpad
+"Engsel kanan retak, perlu ganti engsel + casing karena menarik cover",Buka-tutup layar bunyi krek dan berat,NB,Dell,Latitude 5420
+Pin adaptor longgar. Sudah diperbaiki,Tidak bisa dicharging,NB,HP,Elitebook

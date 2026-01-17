@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "accuracy": 0.24561403508771928,
+    "f1_macro": 0.039436619718309855
+  },
+  "dt_default": {
+    "accuracy": 0.7368421052631579,
+    "f1_macro": 0.7477383727383727
+  },
+  "dt_tuned": {
+    "accuracy": 0.7017543859649122,
+    "f1_macro": 0.7131232560542905
+  },
+  "best_params": {
+    "model__criterion": "entropy",
+    "model__max_depth": null,
+    "model__min_samples_leaf": 1,
+    "model__min_samples_split": 2
+  }
+}

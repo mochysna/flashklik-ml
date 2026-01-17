@@ -1,0 +1,11 @@
+,pred_BATTERY,pred_DISPLAY,pred_ENGSEL,pred_KEYBOARD,pred_LAINNYA,pred_OVERHEAT,pred_POWER,pred_PRINTER,pred_SOFTWARE,pred_STORAGE
+actual_BATTERY,5,0,0,0,0,0,0,0,0,0
+actual_DISPLAY,0,12,0,0,2,0,0,0,0,0
+actual_ENGSEL,0,0,1,0,0,0,0,0,0,0
+actual_KEYBOARD,0,1,0,5,0,0,1,0,0,1
+actual_LAINNYA,0,0,0,0,2,0,3,1,0,0
+actual_OVERHEAT,0,1,0,0,2,2,0,0,0,0
+actual_POWER,0,1,0,0,0,0,2,0,0,0
+actual_PRINTER,0,0,0,0,0,0,0,3,1,0
+actual_SOFTWARE,0,0,0,0,1,0,1,0,4,0
+actual_STORAGE,0,0,0,0,1,0,0,0,0,4

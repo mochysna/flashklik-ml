@@ -75,9 +75,9 @@ def db_health(db: Session = Depends(get_db)):
 @app.post("/predict", response_model=PredictResponse)
 def predict(req: PredictRequest):
     # Normalisasi input
-    jenis = _norm(req.jenis_perangkat).upper()
-    merk = _norm(req.merk).upper()
-    seri = _norm(req.series).upper()
+    jenis = _norm(req.jenis_perangkat).lower()
+    merk = _norm(req.merk).lower()
+    seri = _norm(req.series).lower()
     keluhan = _norm(req.keluhan)
 
     # WAJIB: kolom text_combined harus ada karena training pakai text_col="text_combined"
@@ -228,17 +228,16 @@ def predict_for_ticket(id_ticket: int, db: Session = Depends(get_db)):
     conf = top[0]["confidence"]
 
     # upsert prediksi_ml (0..1 per ticket)
+    # upsert prediksi_ml (0..1 per ticket)
     pred = db.query(PrediksiML).filter_by(id_ticket=id_ticket).first()
     if pred:
         pred.label_prediksi = label
         pred.confidence_score = conf
-        pred.raw_topk = top
     else:
         pred = PrediksiML(
             id_ticket=id_ticket,
             label_prediksi=label,
             confidence_score=conf,
-            raw_topk=top
         )
         db.add(pred)
 
@@ -271,6 +270,6 @@ def get_ticket(id_ticket: int, db: Session = Depends(get_db)):
         "prediksi": ({
             "label": pred.label_prediksi,
             "confidence": pred.confidence_score,
-            "topk": pred.raw_topk
+            # "topk": pred.raw_topk
         } if pred else None)
     }
